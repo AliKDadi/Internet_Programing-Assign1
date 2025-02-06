@@ -1,0 +1,128 @@
+<html>
+<head>
+    <title>A Tribute to My Amazing Mother</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #428699;
+            color: #333;
+        }
+
+        header {
+            background-color: #280ed0;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(240, 237, 237);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 25%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Mother: A Heart of Gold</h1>
+        <p>A celebration of the most incredible woman I know.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#life">Her Life</a></li>
+            <li><a href="#achievements">Her Achievements</a></li>
+            <li><a href="#legacy">Her Legacy</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section id="life">
+        <h2>Early Life and Influences</h2>
+        <p>
+            My mother, Fatuma Mwenda Ngumbau, was born on 17/06/1986 in Mombasa. 
+            From a young age, she showed unconditional love to her siblings. 
+            She grew up in a small village, the eldest of six siblings. From a young age, she took on the role of caretaker, helping her mother with chores and looking after her younger brothers and sisters. Despite the hardships of poverty, she excelled in school, often studying by candlelight after long days of work.
+            As a teenager, she sacrificed her own dreams of higher education to support her family, working tirelessly to ensure her siblings had opportunities she never had. Her kindness and resilience shaped her into the nurturing mother she would later become—one who always put others before herself, ensuring her children felt loved, safe, and encouraged to chase their dreams.
+        </p>
+        <img src="salmah.jpg" alt="Mother's Childhood Photo"> 
+    </section>
+
+    <section id="achievements">
+        <h2>A Life of Accomplishments</h2>
+        <ul style="list-style-type:square">
+            <li>Graduated top of her class</li>
+            <li>Raised a loving family</li>
+            <li>Volunteered countless hours to charity</li>
+        </ul>
+    </section>
+
+    <section id="legacy">
+        <h2>The Impact She Made</h2>
+        <ol type="1">
+            <li>She inspired love, kindness, resilience and generosity in all who knew her</li> 
+            <li>She taught me the importance of hard work and dedication as she believed success comes from perseverance and effort</li> 
+            <li>Her influence on my life and the lives of others in the community is immeasurable</li>
+        </ol>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="mother1.jpg" alt="Mother Photo 1">
+            <img src="mother2.jpg" alt="Mother Photo 2">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Ali Kazungu -2025</p>
+    </footer>
+
+</body>
+</html>
